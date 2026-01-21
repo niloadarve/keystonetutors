@@ -27,11 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-  <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
-  </div>
-
 [Keystone Tutors] is a bespoke remote tutoring company built around the belief that exceptional education is both personal and empowering. Our tutors are highly accomplished educators, chosen not only for their outstanding academic backgrounds but for their warmth, creativity, and ability to connect meaningfully with each student. We provide thoughtful, one-to-one support across homework guidance, standardized test preparation, college admissions essays, ESL tutoring, and organizational coaching. From SAT, ACT, AP, and GED preparation to enriching short courses, our flexible online offerings are designed to nurture confidence and lasting academic success.
 
 “She is so kind and gentle almost like its an art form. Honestly though, a hidden gem of a professor that I personally learned a lot from and I hope many others can learn from as well.”
