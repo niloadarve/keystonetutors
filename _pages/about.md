@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: default
 title: about
 permalink: /
 subtitle:
@@ -26,6 +26,20 @@ latest_posts:
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
+<div class="post">
+
+{% assign blog_name_size = site.blog_name | size %}
+{% assign blog_description_size = site.blog_description | size %}
+
+{% if blog_name_size > 0 or blog_description_size > 0 %}
+
+  <div class="header-bar">
+    <h1>{{ site.blog_name }}</h1>
+    <h2>{{ site.blog_description }}</h2>
+  </div>
+  {% endif %}
+
 
 [Keystone Tutors] is a bespoke remote tutoring company built around the belief that exceptional education is both personal and empowering. Our tutors are highly accomplished educators, chosen not only for their outstanding academic backgrounds but for their warmth, creativity, and ability to connect meaningfully with each student. We provide thoughtful, one-to-one support across homework guidance, standardized test preparation, college admissions essays, ESL tutoring, and organizational coaching. From SAT, ACT, AP, and GED preparation to enriching short courses, our flexible online offerings are designed to nurture confidence and lasting academic success.
 
