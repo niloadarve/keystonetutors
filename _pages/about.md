@@ -35,7 +35,4 @@ latest_posts:
 
 “Shes so kind and her energy is to die for. Literally one of the BEST professors I've encountered in my first year at LaGuardia.”
 
-
 “Thank you so much for such an amazing class! I learned a lot and feel more confident.”
-
-
